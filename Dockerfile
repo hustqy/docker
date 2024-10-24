@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # A image for building/testing brpc
-FROM ubuntu:20.04
+FROM registry.cn-hangzhou.aliyuncs.com/acs/ubuntu:20.04
 
 # prepare env
 RUN apt-get update && apt-get install -y --no-install-recommends \
